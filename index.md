@@ -23,8 +23,7 @@ literature.
 We host the Numerical Engine Room Talks on a semi-regular basis, approximately
 once every month or two, via Zoom. If you are interested, please send an email to
 [Michael](mailto:m.schlottke-lakemper@acom.rwth-aachen.de)
-to be included in the regular announcement email or subscribe to this
-[GitHub issue].
+to be included in the regular announcement email.
 
 Michael Schlottke-Lakemper, [RWTH Aachen University](https://lakemper.eu)\\
 Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
