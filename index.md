@@ -14,7 +14,7 @@
 The *Numerical Engine Room Talks* are an interdisciplinary seminar series at the
 intersection of numerical methods, algorithm development, and high-performance
 computing. A particular focus in these talks is on the internals of the
-"numerical machine room", i.e., on details such as implementation notes,
+"numerical engine room", i.e., on details such as implementation notes,
 performance numbers, or specific corner cases. We invite our guest speakers
 and the audience to engage in discussions at this level, to facilitate a
 scientific exchange that goes beyond the polished results found in the
