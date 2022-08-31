@@ -1,4 +1,4 @@
-@def title = "Franklin Example"
+@def title = "Numerical Engine Room Talks"
 @def tags = ["syntax", "code"]
 
 # Numerical Engine Room Talks
