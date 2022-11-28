@@ -30,9 +30,23 @@ Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
 Hendrik Ranocha, [University of Hamburg](https://ranocha.de)
 
 ---
-*Deniz Bezgin (TU Munich), Aaron Buhendwa (TU Munich)*\\
+*[Valentin Churavy](https://vchuravy.dev/) (MIT)*\\
+**Compiler based automatic differentiation for scientific programs**\\
+*Friday, 16th December 2022, 10am CET*\\
+
+Automatic differentiation is a powerful technique in numerical computing. In this talk
+we will explore the tradeoffs of implementing AD on different levels, and discuss automatic
+differentiation for parallel programs and high-level programming languages. The particular
+focus will be on Enzyme an AD framework that operates on the compiler level and supports
+reverse and forward mode AD in a variety of languages such as Julia, C/C++, Fortran and others.
+
+This talk is based on the paper "Scalable Automatic Differentiation of Multiple Parallel
+Paradigms through Compiler Augmentation" by Moses et al. ([PDF](https://www.computer.org/csdl/proceedings-article/sc/2022/544400a859/1I0bT5ygZby), Winner of the Best Student Paper Award at SC22).
+
+---
+*[Deniz Bezgin](https://www.epc.ed.tum.de/aer/mitarbeiter-innen/cv-2/a-d/m-sc-deniz-bezgin/) (TU Munich), [Aaron Buhendwa](https://www.epc.ed.tum.de/aer/mitarbeiter-innen/cv-2/a-d/m-sc-aaron-buhendwa/) (TU Munich)*\\
 **Differentiable Fluid Dynamics in JAX: Challenges and Perspectives**\\
-*Friday, 26 August 2022, 10am CEST*\\
+*Friday, 26th August 2022, 10am CEST*\\
 
 JAX-FLUIDS is a CFD solver written in Python, which uses the JAX framework to
 enable automatic differentiation (AD). This allows one to easily create
