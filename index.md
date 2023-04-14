@@ -30,6 +30,25 @@ Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
 Hendrik Ranocha, [University of Hamburg](https://ranocha.de)
 
 ---
+*[Benjamin Uekermann](https://github.com/uekerman) (University of Stuttgart)*\\
+**preCICE – A General-Purpose Simulation Coupling Interface**\\
+*Friday, 21st April 2023, 11am CET*\\
+
+[preCICE](https://precice.org/) is an open-source coupling software for
+partitioned multi-physics and multi-scale simulations. Thanks to the software's
+library approach (the simulations call the coupling) and its high-level API,
+only minimally-invasive changes are required to prepare an existing
+(legacy) simulation software for coupling. Moreover, ready-to-use
+adapters for many popular simulation software packages are available,
+e.g. for OpenFOAM, SU2, CalculiX, FEniCS, and deal.II. For the actual
+coupling, preCICE offers methods for fixed-point acceleration
+(quasi-Newton acceleration), fully parallel communication (MPI or
+TCP/IP), data mapping (radial-basis function interpolation), and
+time interpolation (waveform relaxation). Today, although being an
+academic software project at heart, preCICE is used by more than 100
+research groups in both academia and industry.
+
+---
 *[Valentin Churavy](https://vchuravy.dev/) (MIT)*\\
 **Compiler based automatic differentiation for scientific programs**\\
 *Friday, 16th December 2022, 10am CET*\\
