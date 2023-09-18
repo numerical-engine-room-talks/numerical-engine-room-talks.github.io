@@ -30,6 +30,31 @@ Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
 Hendrik Ranocha, [University of Hamburg](https://ranocha.de)
 
 ---
+[Arpit Babbar](https://www.math.tifrbng.res.in/people/arpit) (TIFR-CAM),
+[Praveen Chandrashekar](http://cpraveen.github.io/) (TIFR-CAM)\\
+**TrixiLW.jl: A high-order, single stage hyperbolic PDE solver using [Trixi.jl](https://github.com/trixi-framework/Trixi.jl/)**\\
+*Monday, 30th October 2023, 1:00 PM CET*\\
+
+TrixiLW.jl is a Lax-Wendroff (LW) PDE solver that accomplishes high-order accuracy
+by doing a coupled temporal and spatial discretization in contrast to the method of lines
+approach like that of [Trixi.jl](https://github.com/trixi-framework/Trixi.jl),
+where a multi-stage ODE solver is used for temporal discretization following the
+high-order spatial discretization. Lax-Wendroff (LW) schemes are friendly to the
+modern memory-bound CPU as they evolve to the next time level in a single stage,
+minimizing communication from RAM to cache in case of serial code and across nodes
+in case of a parallel code.
+Tenkai.jl is the Cartesian LW code used in our
+[first](https://www.sciencedirect.com/science/article/pii/S0021999122004855) and 
+[second](https://arxiv.org/abs/2305.10781) paper, which took design and optimization
+inspiration from [Trixi.jl](https://github.com/trixi-framework/Trixi.jl). 
+TrixiLW.jl was subsequently written to extend the LW discretization to curvilinear
+grids using [Trixi.jl](https://github.com/trixi-framework/Trixi.jl) as a library.
+The talk will begin by briefly discussing the optimization lessons Tenkai.jl took from
+[Trixi.jl](https://github.com/trixi-framework/Trixi.jl) and then focus on how we
+exploited Julia's multiple dispatch along with the modularity and generality of
+[Trixi.jl](https://github.com/trixi-framework/Trixi.jl) to write TrixiLW.jl.
+
+---
 *[Benjamin Uekermann](https://github.com/uekerman) (University of Stuttgart)*\\
 **preCICE – A General-Purpose Simulation Coupling Interface**\\
 *Friday, 21st April 2023, 11am CET*\\
