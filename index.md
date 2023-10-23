@@ -27,7 +27,7 @@ to be included in the regular announcement email.
 
 Michael Schlottke-Lakemper, [RWTH Aachen University](https://lakemper.eu)\\
 Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
-Hendrik Ranocha, [University of Hamburg](https://ranocha.de)
+Hendrik Ranocha, [Johannes Gutenberg University Mainz](https://ranocha.de)
 
 ---
 [Arpit Babbar](https://www.math.tifrbng.res.in/people/arpit) (TIFR-CAM),
