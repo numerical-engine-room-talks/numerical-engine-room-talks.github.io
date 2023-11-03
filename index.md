@@ -33,7 +33,7 @@ Hendrik Ranocha, [Johannes Gutenberg University Mainz](https://ranocha.de)
 [Arpit Babbar](https://www.math.tifrbng.res.in/people/arpit) (TIFR-CAM),
 [Praveen Chandrashekar](http://cpraveen.github.io/) (TIFR-CAM)\\
 **TrixiLW.jl: A high-order, single stage hyperbolic PDE solver using [Trixi.jl](https://github.com/trixi-framework/Trixi.jl/)**\\
-*Monday, 30th October 2023, 1:00 PM CET*\\
+*Friday, 13th November 2023, 1:00 PM CET*\\
 
 TrixiLW.jl is a Lax-Wendroff (LW) PDE solver that accomplishes high-order accuracy
 by doing a coupled temporal and spatial discretization in contrast to the method of lines
