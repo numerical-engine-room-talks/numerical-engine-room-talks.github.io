@@ -25,9 +25,44 @@ once every month or two, via Zoom. If you are interested, please send an email t
 [Michael](mailto:m.schlottke-lakemper@acom.rwth-aachen.de)
 to be included in the regular announcement email.
 
-Michael Schlottke-Lakemper, [RWTH Aachen University](https://lakemper.eu)\\
+Michael Schlottke-Lakemper, [University of Stuttgart](https://lakemper.eu)\\
 Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
 Hendrik Ranocha, [Johannes Gutenberg University Mainz](https://ranocha.de)
+
+---
+[Tobias Weinzierl](https://www.durham.ac.uk/staff/tobias-weinzierl/) (Durham University)\\
+**Rewrite, rerun, repeat: Insights from rewriting ExHyPE for GPUs and merging binary black holes**\\
+*Friday, 19th April 2024, 10:00 AM CEST*\\
+
+ExaHyPE, a code sponsored by a former FET HPC EU project with the same name, was
+designed for exascale-ready solvers of hyperbolic PDEs on dynamically adaptive
+Cartesian meshes using ADER-DG.
+When the ExaHyPE project had finished, we finally had an idea what the ExaHyPE
+code should have looked like. 
+Therefore, we rewrote the whole software stack from scratch:
+a new AMR baseline (Peano 4), a new PDE solver layer (ExaHyPE 2), and two new domain-specific extensions.
+ExaSeis 2 for seismology and ExaGRyPE for astrophysics, previously intermingled in ExaHyPE's core.
+
+Some of these rewrites have been unavoidable. The most significant change of
+direction results from the rise of GPUs: The original ExaHyPE had been
+designed with KNLs in mind. With ExaHyPE 2, we had to redesign the code for the
+accelerators. Other decisions such as the sole commitment to TBB (we now support OpenMP, TBB, C++ and SYCL) or task-based
+parallelism only turned out to be too specific and ideologic to yield high
+performance on mainstream hardware.
+
+This talk offers a high-level overview of ExaHyPE 2, motivated by astrophysical
+challenges simulating the merger of binary black holes that drove ExaGRyPE's
+development.
+Its second part dives into parallelisation techniques enabling seamless CPU/GPU
+scaling with minimal user effort.
+Upon request, we can provide anecdotal information on alternative approaches
+that we have tried out with previous software generations. 
+
+Three meta questions remain: 
+Did we get the abstraction level right this time for extensibility and maintainability? 
+Will we need to rewrite the code as we rerun on new machine architectures? 
+Are we utilising the right external libraries and tools, or have we reinvented
+wheels and bet on the wrong horses?
 
 ---
 [Arpit Babbar](https://www.math.tifrbng.res.in/people/arpit) (TIFR-CAM),
@@ -55,7 +90,7 @@ exploited Julia's multiple dispatch along with the modularity and generality of
 [Trixi.jl](https://github.com/trixi-framework/Trixi.jl) to write TrixiLW.jl.
 
 ---
-*[Benjamin Uekermann](https://github.com/uekerman) (University of Stuttgart)*\\
+[Benjamin Uekermann](https://github.com/uekerman) (University of Stuttgart)\\
 **preCICE – A General-Purpose Simulation Coupling Interface**\\
 *Friday, 21st April 2023, 11am CET*\\
 
@@ -74,7 +109,7 @@ academic software project at heart, preCICE is used by more than 100
 research groups in both academia and industry.
 
 ---
-*[Valentin Churavy](https://vchuravy.dev/) (MIT)*\\
+[Valentin Churavy](https://vchuravy.dev/) (MIT)\\
 **Compiler based automatic differentiation for scientific programs**\\
 *Friday, 16th December 2022, 10am CET*\\
 
@@ -88,7 +123,7 @@ This talk is based on the paper "Scalable Automatic Differentiation of Multiple 
 Paradigms through Compiler Augmentation" by Moses et al. ([PDF](https://www.computer.org/csdl/proceedings-article/sc/2022/544400a859/1I0bT5ygZby), Winner of the Best Student Paper Award at SC22).
 
 ---
-*[Deniz Bezgin](https://www.epc.ed.tum.de/aer/mitarbeiter-innen/cv-2/a-d/m-sc-deniz-bezgin/) (TU Munich), [Aaron Buhendwa](https://www.epc.ed.tum.de/aer/mitarbeiter-innen/cv-2/a-d/m-sc-aaron-buhendwa/) (TU Munich)*\\
+[Deniz Bezgin](https://www.epc.ed.tum.de/aer/mitarbeiter-innen/cv-2/a-d/m-sc-deniz-bezgin/) (TU Munich), [Aaron Buhendwa](https://www.epc.ed.tum.de/aer/mitarbeiter-innen/cv-2/a-d/m-sc-aaron-buhendwa/) (TU Munich)\\
 **Differentiable Fluid Dynamics in JAX: Challenges and Perspectives**\\
 *Friday, 26th August 2022, 10am CEST*\\
 
