@@ -30,6 +30,18 @@ Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
 Hendrik Ranocha, [Johannes Gutenberg University Mainz](https://ranocha.de)
 
 ---
+[Laslo Hunold](https://pds.uni-koeln.de/group/team/laslo-hunhold) (University of Cologne)\\
+**Takum: A New Tapered Precision Machine Number Format**\\
+*Friday, 7th February 2025, 10:00 AM CET*\\
+
+Posits have been considered as an alternative to IEEE 754 floating-point arithmetic, but their
+limitations reduce their suitability for general-purpose computing. This talk introduces takum, a
+novel tapered-precision format that retains the benefits of posits in low-bit settings while
+achieving higher encoding efficiency over a broader dynamic range. I will present recent results
+showing that takums significantly outperform IEEE 754 floats, improve over posits for
+general-purpose use, and exhibit new, advantageous arithmetic properties.
+
+---
 [Tobias Weinzierl](https://www.durham.ac.uk/staff/tobias-weinzierl/) (Durham University)\\
 **Rewrite, rerun, repeat: Insights from rewriting ExHyPE for GPUs and merging binary black holes**\\
 *Friday, 19th April 2024, 10:00 AM CEST*\\
