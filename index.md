@@ -30,7 +30,7 @@ Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
 Hendrik Ranocha, [Johannes Gutenberg University Mainz](https://ranocha.de)
 
 ---
-[Laslo Huhnold](https://pds.uni-koeln.de/group/team/laslo-hunhold) (University of Cologne)\\
+[Laslo Hunhold](https://pds.uni-koeln.de/group/team/laslo-hunhold) (University of Cologne)\\
 **Takum: A New Tapered Precision Machine Number Format**\\
 *Friday, 7th February 2025, 10:00 AM CET*\\
 
