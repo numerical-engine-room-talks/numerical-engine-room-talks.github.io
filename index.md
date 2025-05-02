@@ -25,9 +25,28 @@ once every month or two, via Zoom. If you are interested, please send an email t
 [Michael](mailto:michael.schlottke-lakemper@uni-a.de)
 to be included in the regular announcement email.
 
-Michael Schlottke-Lakemper, [University of Augsburg](https://lakemper.eu)\\
+Michael Schlottke-Lakemper, [University of Augsburg](https://hpsc.math.uni-augsburg.de)\\
 Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
 Hendrik Ranocha, [Johannes Gutenberg University Mainz](https://ranocha.de)
+
+---
+[Johannes Gebert](https://www.hlrs.de/people/johannes-gebert) (High-Performance Computing Center Stuttgart)\\
+**Enabling Massively Parallel Simulations of Directly Discretized CT Scans of Human Bones**\\
+*Tuesday, 6th May 2025, 02:00 PM CEST*\\
+
+Quantifying the patient-specific elastic behavior of human bone can improve the design of
+implants, for example in total hip- or knee replacements. We calculate the mechanical stiffness
+tensor of human bone by direct discretization of computed tomography (CT) scans with more than
+18 billion voxels. The software started as a serial implementation but now requires different
+massively parallel parameterizations, which poses significant challenges. Many computations may
+run ideally parallel; one computation may be a single large-scale job or any other variant. We
+solved the challenge with MPI and PETSc to distribute the linear algebraic system, allowing for
+computing large volumes of interest (VoIs) in bone. At the same time, pre- and post-processing
+are still serially implemented.
+We will examine the challenges in the software's legacy components and its performance
+bottlenecks. Furthermore, we will show the perspective of the high-performance computing center
+in which the user deploys the simulation and measures to, e.g., optimize for short turnaround
+times.
 
 ---
 [Laslo Hunhold](https://pds.uni-koeln.de/group/team/laslo-hunhold) (University of Cologne)\\
