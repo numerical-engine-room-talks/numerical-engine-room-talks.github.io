@@ -30,6 +30,21 @@ Gregor Gassner, [University of Cologne](https://www.mi.uni-koeln.de/NumSim)\\
 Hendrik Ranocha, [Johannes Gutenberg University Mainz](https://ranocha.de)
 
 ---
+[Alex Bercik](https://github.com/alexbercik) (University of Toronto)\\
+**Volume Dissipation for Finite-Difference and Spectral-Element Summation-By-Parts Methods**\\
+*Wednesday, 3rd December 2025, 04:00 PM CET*\\
+
+We construct provably stable, conservative, and accurate volume dissipation within a tensor-product framework.
+The dissipation operators can be applied to any scheme that uses the SBP framework, including high-order
+entropy-stable schemes. We clarify the incorporation of a variable coefficient within the operator structure,
+and connect the presented volume dissipation to the use of upwind SBP operators, both in a finite-difference
+and spectral-element context. Numerical examples featuring the linear convection, Burgers, and Euler equations
+verify the properties of the constructed dissipation operators, and assess their performance compared to
+existing upwind schemes, including local linear stability behaviour. When applied to entropy-stable schemes,
+the presented approach results in accurate and robust methods that can solve a broader range of problems
+where comparable existing methods fail.
+
+---
 [Johannes Gebert](https://www.hlrs.de/people/johannes-gebert) (High-Performance Computing Center Stuttgart)\\
 **Enabling Massively Parallel Simulations of Directly Discretized CT Scans of Human Bones**\\
 *Tuesday, 6th May 2025, 02:00 PM CEST*\\
